@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int n;
+    int n,j;
     cout<<"Enter Number: ";
     cin>> n;
     for(int i=1;i<=n;i++){
@@ -12,7 +12,9 @@ int main(){
         for(int j=1;j<=i;j++){
             cout<<j;
         }
+         for(int j=i-1;j>=1;j--){
+            cout<<j;
+        }
         cout<<endl;
-
     }
 }
